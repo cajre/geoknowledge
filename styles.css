@@ -1,0 +1,92 @@
+body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f9;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4a21a2;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px solid #2c1378;
+      }
+      header img {
+        height: 50px;
+        margin-right: 15px;
+      }
+      header h1 {
+        margin: 0;
+        font-family: 'Bitter', serif;
+        font-size: 2em;
+        color: #ffffff;
+      }
+      main {
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .description {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .description p {
+        margin: 0;
+      }
+      .description a {
+        color: #4a21a2;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .description a:hover {
+        text-decoration: underline;
+      }
+      section h2 {
+        font-family: 'Bitter', serif;
+        color: #4a21a2;
+        border-bottom: 2px solid #4a21a2;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      .article {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        transition: box-shadow 0.3s;
+      }
+      .article:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .article h3 {
+        margin-top: 0;
+        font-family: 'Bitter', serif;
+        font-size: 1.5em;
+        color: #4a21a2;
+      }
+      .article h3 a {
+        color: #4a21a2;
+        text-decoration: none;
+      }
+      .article h3 a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 40px;
+        padding: 20px 10px;
+        text-align: center;
+        background-color: #4a21a2;
+        color: #ffffff;
+        border-top: 3px solid #2c1378;
+      }
+      footer a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
