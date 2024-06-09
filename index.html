@@ -19,18 +19,20 @@
         padding: 10px;
         display: flex;
         align-items: center;
+        justify-content: center; /* Center horizontally */
         border-bottom: 2px solid #4a21a2;
-        justify-content: space-between;
       }
+      
       header img {
         height: 80px; /* Increased height for a bigger logo */
+        margin-right: 15px;
       }
+      
       header h1 {
         margin: 0;
         font-size: 2.5em; /* Increased font size for the heading */
         color: #4a21a2;
-        flex-grow: 1;
-        text-align: center;
+        text-align: center; /* Center text */
       }
       main {
         padding: 20px;
@@ -87,10 +89,8 @@
   </head>
   <body>
     <header>
-      <div class="header-content">
-        <h1>Welcome to GeoKnowledge!</h1>
-      </div>
       <img src="logoandtext.png" alt="GeoKnowledge Logo">
+      <h1>Welcome to GeoKnowledge!</h1>
     </header>
     <main>
       <section class="description">
